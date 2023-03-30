@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+    background-color: rgb(97, 136, 219);
+    color: azure;
+    font-family: 'Baloo Bhai 2', cursive;
+    position: fixed;
+    width: 100vw;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+li{
+    list-style:none;
+    padding-right: 23px;
+}
+li a{
+     text-decoration: none;
+     color: rgb(4, 37, 37);
+}
+li a:hover{
+    color: rgb(2, 40, 40);
+    font-weight:bolder ;
+}
+.logo img
+{
+   height: 40px;
+   padding-right: 30px;
+   padding-left: 10px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+.search input{
+   width: 300px;
+   border-radius: 5px;
+   margin:0 5px 0 100px;
+}
+.container{
+    min-height: calc(100vh - 50px - 12vh);
+}
+.slider{
+    
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 440px;
+    align-items: center;
+}
+.card{
+    max-width: 90vw;
+    margin: auto;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.insidecard{
+    display: flex;
+    max-width: 95vw;
+    justify-content: center;
+    
+}
+.card img{
+    width: 160px;
+    height: 230px;
+}
+
+.carditems{
+     margin: 7px;
+}
+.carditems:hover{
+   transform: scaleZ(25px);
+   transform: scaleY(200px);
+
+}
+.end{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 80px;
+    display: flex;
+    background-color: rgb(97, 136, 219);
+    border-bottom: 1px solid rgb(10, 10, 125);
+}
+.e{
+    margin:50px;
+}
+footer{
+    height: 12vh;
+    background-color: rgb(3, 30, 97);
+    color: azure;
+    font-family: 'Baloo Bhai 2', cursive;
+    width: 100vw;
+}

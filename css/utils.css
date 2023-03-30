@@ -1,0 +1,15 @@
+.flex-all-centre
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} 
+.btn
+{
+   padding: 2px 5px;
+   
+}
+.btn:hover{
+   background-color: rgb(36, 160, 248);
+   cursor: pointer;
+}

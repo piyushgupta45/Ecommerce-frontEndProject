@@ -1,0 +1,13 @@
+@media screen and (max-width:1000px)
+{
+    nav{
+        flex-direction: column;
+    }
+    body{
+        background-color: aqua;
+    }
+    .search input{
+        margin: auto;
+        width: 150px;
+    }
+}
