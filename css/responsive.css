@@ -10,4 +10,15 @@
         margin: auto;
         width: 150px;
     }
+    .insidecard{
+        flex-wrap: wrap;
+    }
+    .end{
+        flex-direction: column;
+    }
+    .slider img{
+        width:350px ;
+        height: 300px;
+    }
+    
 }
